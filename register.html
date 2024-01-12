@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Female News</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500;1,900&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/home.css" />
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="split-screen">
+        <div class="left">
+            <div class="overlay">
+                <img src="image/banner.jpg" />
+                <h3 class="logo">Female News</h3>
+                <section class="copy">
+                    <h1><em>Lifestyle, Beauty, Fashion</em></h1>
+                    <p>Get your updated news through us.</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="right">
+            <form action="">
+                <section class="copy">
+                    <h2>Sign Up</h2>
+                    <div class="login-container">
+                        <p>
+                            Already have an account?
+                            <strong><a href="login.html">Log In</a></strong>
+                        </p>
+                    </div>
+                </section>
+
+                <div class="input-container name">
+                    <span id="name-error"></span>
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" placeholder="Enter Your First and Last Name"
+                        onkeyup="validateName()" />
+                </div>
+
+                <div class="input-container email">
+                    <span id="email-error"></span>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="example@gmail.com" onkeyup="validateEmail()" />
+                </div>
+
+                <div class="input-container password">
+                    <span id="password-error"></span>
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Enter Your Password"
+                        onkeyup="validatePassword()" />
+                    <i class="fas fa-eye-slash"></i>
+                </div>
+
+                <button class="signup-btn" type="button" onclick="location.href='index.html'">
+                    Sign Up
+                </button>
+                <section class="copy legal">
+                    <p>
+                        <span class="small">By clicking on Sign Up, you agree to our <br /><a href="#">Privacy
+                                Policy</a>
+                            & <a href="#">Terms and Conditions</a></span>
+                    </p>
+                </section>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
