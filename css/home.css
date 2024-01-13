@@ -27,6 +27,10 @@ body {
 }
 
 /* LOGIN */
+
+.login, .register {
+  padding-bottom: 0;
+}
 .left h1 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
@@ -249,6 +253,7 @@ label {
   cursor: pointer;
   box-shadow: 1px 1px 2px 0.5px var(--secondary-color);
 }
+
 
 /* HEADER NAVBAR */
 #navbar {
@@ -666,6 +671,7 @@ footer {
 }
 
 /* RESPONIVE LOGIN  */
+
 @media screen and (min-width: 1100px) {
   .split-screen {
     flex-direction: row;
@@ -745,7 +751,7 @@ footer {
   .overlay p {
     font-size: 9px;
   }
-}
+}adding-bottom
 /* RESPONSIVE */
 
 
