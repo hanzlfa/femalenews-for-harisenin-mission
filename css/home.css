@@ -300,6 +300,11 @@ nav li:hover .dropdown > li {
   color: black;
 }
 
+.dropdown .hidden {
+  position: absolute;
+  visibility: hidden;
+}
+
 .dropdown i {
   margin-right: 10px;
 }
@@ -742,7 +747,10 @@ footer {
   }
 }
 /* RESPONSIVE */
+
+
 @media screen and (max-width: 1100px) {
+
   body {
     padding-bottom: 30rem;
   }
@@ -815,6 +823,11 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
+  
+.dropdown .hidden {
+  visibility: visible;
+  position: relative;
+}
   nav ul {
     width: 20%;
   }
