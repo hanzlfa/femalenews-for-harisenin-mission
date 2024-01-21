@@ -67,7 +67,7 @@ a:hover {
   object-fit: cover;
   object-position: center;
   background-position: center;
-  background-image: url(/banner/berita-2.jpg);
+  background-image: url(../banner/berita-2.jpg);
 }
 
 .overlay {
