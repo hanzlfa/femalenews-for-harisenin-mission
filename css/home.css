@@ -77,9 +77,19 @@ a:hover {
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: rgba(120, 69, 183);
+  background-color: rgba(120, 69, 183, 0.5);
 }
 
+.left img {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  background-position: center;
+  z-index: -1;
+}
 .logo {
   position: absolute;
   top: 20px;
